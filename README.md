@@ -263,6 +263,8 @@ L'utilisateur aura ainsi constamment sous les yeux le message partiellement déc
 - Le texte à déchiffrer devra être fourni dans un fichier dont le chemin sera fourni comme premier argument en ligne de commandes. 
 - La langue du texte à déchiffrer sera fournie comme second argument en ligne de commandes. 
 
+7. Déchiffrez le message contenu dans le fichier extraits/secret3, dont la langue d'origine est le français. 
+
 
 ## Exercice 5 : Programme de déchiffrement si la langue est inconnue : utilisation de l'indice de coincidence
 
@@ -281,7 +283,7 @@ $$
 
 - Un chiffrement par substitution monoalphabétique conserve les nombres d'occurrences des caractères, même s'il remplace chaque lettre par une autre. L'indice de coïncidence du texte chiffré est donc identique à celui du texte original, il peut ainsi aider à identifier la langue d'un texte chiffré.
 
-7. Développer un programme calculant l'indice de coincidence d'un texte dont le chemin est fourni comme argument, affichant la langue la plus probable du texte d'origine. 
+8. Développer un programme calculant l'indice de coincidence d'un texte dont le chemin est fourni comme argument, affichant la langue la plus probable du texte d'origine. 
 - Nous considérerons comme précédemment que les textes à déchiffrer ne sont composés que de caractères minuscules.
 - Les indices de coïncidence des principales langues peuvent être extraits du site de Wikipédia, recalculés à partir des fréquences de référence ou de fichiers extraits du site du [projet Gutenberg](https://www.gutenberg.org/). 
 

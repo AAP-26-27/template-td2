@@ -11,7 +11,7 @@ def alphabet_latin():
     
 def generer_cle(): 
     """TODO: Renvoyer les caractères alphabétiques présents dans les données de référence dans un ordre aléatoire. """
-    pass
+    return "abcdefghijklmnopqrstuvwxyzßàáâãäåæçèéêëìíîïðñòóôöøùúüýþąćĉčďęěĝğĥıĵłńňœřśŝşšťŭůźżž"
 
 def chiffrer(texte,cle):
     """TODO: Chiffrer un texte en appliquant les substitutions correspondant à la clé passée en paramètre. """
