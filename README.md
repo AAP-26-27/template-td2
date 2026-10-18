@@ -274,6 +274,7 @@ Pour détecter la langue d'un texte, nous ne pouvons pas nous appuyer directemen
 - 📌 L'indice de coïncidence est une mesure statistique qui permet d'estimer la probabilité que deux caractères choisis au hasard dans un texte soient identiques.
 - D'après la [Page Wikipédia sur l'indice de coïncidence](https://fr.wikipedia.org/wiki/Indice_de_co%C3%AFncidence), cet indicateur est caractéristique de la langue utilisée, puisque la distribution des lettres diffère d'une langue à l'autre. 
 - Il se calcule de la manière suivante, avec n le nombre de lettres total du message, $n_A$ le nombre de A, $n_B$ le nombre de B, etc. :
+
 $$
 \mathrm{IC} = \sum_{q=A}^{Z} \frac{n_q(n_q-1)}{n(n-1)}
 $$
